@@ -1,12 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-Theme Name: Gerold - Personal Portfolio HTML5 Template
-Theme URI: https://themejunction.net/html/gerold/demo/
-Author: Theme-Junction
-Author URI: https://themeforest.net/user/theme-junction
-Description: Gerold - Personal Portfolio HTML5 Template
-
------------------------------------------------------------------------------------
 /************ TABLE OF CONTENTS ***************
 
   Theme Default CSS
@@ -3479,3 +3471,15 @@ body.absolute_header .breadcrumb_area {
 }
 
 /* END: Modal CSS */
+.image-box {
+    max-height: 500px;
+    overflow: scroll;
+	scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+.image-box::-webkit-scrollbar {
+display: none;
+}
+.resume-section .resume-item {
+    margin: 10px;
+}
